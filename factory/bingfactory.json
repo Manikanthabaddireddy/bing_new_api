@@ -1,0 +1,9 @@
+{
+	"name": "bingfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c0c7745f-74e1-4281-8e8f-4786d9141d80",
+		"tenantId": "4e196b06-c033-4d52-b07f-aca545c3d283"
+	}
+}
