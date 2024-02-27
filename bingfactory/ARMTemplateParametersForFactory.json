@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "bingfactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://bing7571.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0212-142033-1umv4dee"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://api.bing.microsoft.com/"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://api.bing.microsoft.com/v7.0/news/search"
+		}
+	}
+}
